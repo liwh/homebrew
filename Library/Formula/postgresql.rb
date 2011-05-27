@@ -3,7 +3,8 @@ require 'hardware'
 
 class Postgresql < Formula
   homepage 'http://www.postgresql.org/'
-  url 'http://ftp9.us.postgresql.org/pub/mirrors/postgresql/source/v9.0.3/postgresql-9.0.3.tar.bz2'
+  #url 'http://ftp9.us.postgresql.org/pub/mirrors/postgresql/source/v9.0.3/postgresql-9.0.3.tar.bz2'
+  url 'ftp://ftp2.cn.postgresql.org/postgresql/source/v9.0.3/postgresql-9.0.3.tar.bz2'
   md5 '928df8c40bb012ad10756e58b70516fb'
 
   depends_on 'readline'
